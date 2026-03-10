@@ -1,4 +1,54 @@
+@layer override, mui;
+
+@layer override {
+    :root {
+        --mui-palette-background-default: #121212;
+        --mui-palette-background-paper: #1e1e1e;
+        --mui-palette-text-primary: #ffffff;
+        --mui-palette-text-secondary: rgba(255,255,255,0.7);
+        --mui-palette-grey-100: #1e1e1e;
+        --mui-palette-grey-200: #2c2c2c;
+        --mui-palette-grey-300: #393939;
+        --mui-palette-grey-400: #525252;
+        --mui-palette-grey-500: #6f6f6f;
+        --mui-palette-grey-600: #c6c6c6;
+        --mui-palette-greyBg-100: #1a1a1a;
+        --mui-palette-greyBg-200: #242424;
+        --mui-palette-greyBg-300: #2e2e2e;
+        --mui-palette-divider: rgba(255,255,255,0.12);
+        --mui-palette-background-defaultChannel: 18 18 18;
+        --mui-palette-background-paperChannel: 30 30 30;
+        --mui-palette-text-primaryChannel: 255 255 255;
+    }
+
+    .light {
+        --mui-palette-background-default: #121212;
+        --mui-palette-background-paper: #1e1e1e;
+        --mui-palette-text-primary: #ffffff;
+        --mui-palette-text-secondary: rgba(255,255,255,0.7);
+        --mui-palette-grey-100: #1e1e1e;
+        --mui-palette-grey-200: #2c2c2c;
+        --mui-palette-grey-300: #393939;
+        --mui-palette-grey-400: #525252;
+        --mui-palette-grey-500: #6f6f6f;
+        --mui-palette-grey-600: #c6c6c6;
+        --mui-palette-greyBg-100: #1a1a1a;
+        --mui-palette-greyBg-200: #242424;
+        --mui-palette-greyBg-300: #2e2e2e;
+        --mui-palette-divider: rgba(255,255,255,0.12);
+        --mui-palette-background-defaultChannel: 18 18 18;
+        --mui-palette-background-paperChannel: 30 30 30;
+        --mui-palette-text-primaryChannel: 255 255 255;
+    }
+
+    html, body, #__next {
+        background-color: #121212;
+        color: #ffffff;
+    }
+}
 :root {
+
+    
     --mui-palette-background-default: #121212 !important;
     --mui-palette-background-paper: #1e1e1e !important;
     --mui-palette-text-primary: #ffffff !important;
